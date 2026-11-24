@@ -19,3 +19,16 @@ git commit -m "nume mesaj"
 git commit --message "nume mesaj"
 
 git push
+
+
+# Pentru a vizualiza branch-urile existente
+git branch
+
+# Pentru a redenumi branch-ul existent
+git branch -M  noulNume
+
+# Pentru a schimba branch-ul (a trece de pe unul pe altul)
+git checkout numeBranchPeCareTrec
+
+# Pentru a crea un nou branch
+git branch numeDeBranchNou
