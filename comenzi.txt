@@ -1,0 +1,12 @@
+# Versiunea de git
+git --version
+git -v
+
+# Initializare proiect git (local)
+git init 
+
+# Pentru a vedea statusul fisierelor
+git status
+
+# Exista 3 stari in care un fisier se poate afla
+## untracked-modified / staged / commit
