@@ -10,3 +10,12 @@ git status
 
 # Exista 3 stari in care un fisier se poate afla
 ## untracked-modified / staged / commit
+
+# Principale 3 comenzi de creare a unui commit
+git add .
+git add numefisier
+
+git commit -m "nume mesaj"
+git commit --message "nume mesaj"
+
+git push
