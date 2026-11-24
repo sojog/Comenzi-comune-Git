@@ -38,3 +38,21 @@ git remote add origin https://github.com/handle/link-creat-din-github.com
 
 # Pentru a trimite branch-ul pe server
 git push --set-upstream origin main
+
+
+# Comenzi de setare a contului
+# Pentru a citi username-ul si nume dintr-un repo
+git config user.name
+git config user.email 
+
+# Pentru a le DEFINI username-ul si nume dintr-un repo
+git config user.name NOUL_NUME
+git config user.email  NOUL_EMAIL
+
+# Pentru a citi username-ul si nume LA NIVEL global
+git config --global user.name
+git config --global user.email 
+
+# Pentru a le DEFINI username-ul si nume LA NIVEL global
+git config --global user.name NOUL_NUME
+git config --global user.email  NOUL_EMAIL
