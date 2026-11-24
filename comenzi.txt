@@ -32,3 +32,9 @@ git checkout numeBranchPeCareTrec
 
 # Pentru a crea un nou branch
 git branch numeDeBranchNou
+
+# Pentru a adauga un link de server pentru repo-ul nostru
+git remote add origin https://github.com/handle/link-creat-din-github.com
+
+# Pentru a trimite branch-ul pe server
+git push --set-upstream origin main
